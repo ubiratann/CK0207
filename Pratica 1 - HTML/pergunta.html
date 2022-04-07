@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perguntas</title>
+</head>
+<body>
+    <header>
+        <h1>Universidade</h1>
+        <hr>
+    </header>
+    <main>
+        <form action="submit" method="post" >
+            <label for="nome">Nome:</label><br>
+            <input type="text" name="nome" id="nome" placeholder="Nome Completo"/><br>
+   
+            <label for="email">Email:</label><br>
+            <input type="email" name="email" id="email" placeholder="nome@email.com"/><br>
+   
+            <label for="regiao">Região onde mora:</label><br>
+            <select name="regiao" id="regiao" >
+                <option value="centro-oeste">Centro-Oeste</option>
+                <option value="nordeste">Nordeste</option>
+                <option value="norte">Norte</option>
+                <option value="sudeste">Sudeste</option>
+                <option value="sul">Sul</option>
+            </select><br>
+   
+            <textarea name="pergunta" id="pergunta" cols="30" rows="10" placeholder="Digite aqui sua pergunta"></textarea><br>
+   
+            <button >Redefinir</button>
+            <button type="submit">Enviar</button>
+        </form>
+        <p>
+            <a href="index.html">Voltar à pagina principal</a>
+        </p>
+    </main>
+</body>
+</html>
