@@ -128,7 +128,9 @@ li.dropdown {
     width: 100%;
     background-color: black;
     color: white;
-    text-align: center;
+    text-align: lef;
+    font-size: smaller;
+    padding: 5px;
 }
 #coordenacao{
     float: right;
