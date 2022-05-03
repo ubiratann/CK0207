@@ -1,0 +1,29 @@
+.Dupla{
+    background-color: #205E69;
+    color: white;
+    justify-content: space-between;
+
+}
+
+.nomeDupla{
+    flex: 9;
+    text-align: center;
+}
+
+.quantidadeSets{
+    flex: 0.5;
+    text-align: center;
+    background-color: black;
+}
+
+
+.quantidadePontos{
+    flex: 0.5;
+    text-align: center;
+    background-color: grey;
+    color: black;
+}
+
+.bold{
+    font-weight: bold;
+}
