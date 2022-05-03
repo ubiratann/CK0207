@@ -1,0 +1,7 @@
+.Placar{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    gap:1px;
+    max-width: 30%;
+}
